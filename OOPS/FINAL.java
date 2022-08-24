@@ -8,7 +8,7 @@ public class FINAL {
     static class P{
         final int maxScore = 40;//data member final
 
-        void fun(){
+        final void fun(){
             final int age = 30;//data variable final
             // maxScore = maxScore+5;//not allowed due to final keyword
             // age++;// --> not allowed due to final keyword on age variable
@@ -17,9 +17,10 @@ public class FINAL {
     }
     static class C{
        
-        void fun(){
-            System.out.println("c fun");
-        }
+        //here the above already defined fun method can't be override due to final keyword
+        // void fun(){
+        //     System.out.println("c fun");
+        // }
     }
     
 }
