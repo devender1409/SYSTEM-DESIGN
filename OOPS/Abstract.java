@@ -1,4 +1,3 @@
-package OOPS;
 
 abstract class Base1{
     abstract public int area();

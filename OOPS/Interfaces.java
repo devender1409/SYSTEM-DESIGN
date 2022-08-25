@@ -1,4 +1,4 @@
-package OOPS;
+
 interface Bicycle{
     final int spd = 40;//speed - by default final
 

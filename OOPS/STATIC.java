@@ -1,4 +1,4 @@
-package OOPS;
+
 
 public class STATIC{
     static class BankAccount{
