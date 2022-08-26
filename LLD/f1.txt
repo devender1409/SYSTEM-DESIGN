@@ -1,0 +1,6 @@
+ITERATOR DESIGN Pattern
+
+for looping across all items of a collection of data, without changing the collection
+-> implemented by Iterator and iterable interface, and a syntactical sugar of for-each looping
+
+Question : https:
