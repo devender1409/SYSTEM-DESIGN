@@ -1,0 +1,11 @@
+Object class - toString , hashcode , equals
+ --> Object class is actually a base class of all classes in java
+
+ whyy does arylist,linkedlist and hashmap print their data when we do syso but our class doesn't ?
+ ans- bcz the above mentioned classes implements toString method of Object class 
+
+Design Patterns
+        ->Singleton
+        ->Observor
+        ->Adaptor
+        ->Decorator
