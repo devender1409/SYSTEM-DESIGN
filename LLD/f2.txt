@@ -25,6 +25,13 @@ Design Patterns
         ->Let say we want weather API daa and we found a weather API
         -> Our code s expecting data in JSON format
         -> weather API is running data in XML format
-        -> we will have to write an adaptor on the API. The adaptor will call API and get data in XML format and convert it to JSON for use by our code
+        -> we will have to write an adaptor on the API.
+        -> The adaptor will call API and get data in XML format and convert it to JSON for use by our code
 
         
+2.Singleton Design Pattern
+        when we want to create the instance of an class only once
+        --Real life use------
+                is for logging system
+
+       Note*** :  In case of multithreading ...we can still create two instance of same class
