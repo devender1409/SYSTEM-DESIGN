@@ -1,0 +1,37 @@
+Object class - toString , hashcode , equals
+ --> Object class is actually a base class of all classes in java
+
+ whyy does arylist,linkedlist and hashmap print their data when we do syso but our class doesn't ?
+ ans- bcz the above mentioned classes implements toString method of Object class 
+
+Design Patterns
+        ->Adaptor
+        ->Singleton
+        ->Observor
+        ->Decorator
+
+-------------------------------------------------------------------------------------------------------
+
+1.Adaptor Design Pattern
+        ->there is  already existing data provider
+        -> but the format in which data provider provides data is different from the format in which data consumer expects data
+        -> We have to write an adaptor which converts between the two formats
+        --> consumer will depend on adaptor 
+        -> adaptor will call the provider and get data in format
+        -> Adaptor will convert the data format from format1 to format2
+        ->Consumer will get data in format2 from the adaptor
+
+        ----Real Life usage-----
+        ->Let say we want weather API daa and we found a weather API
+        -> Our code s expecting data in JSON format
+        -> weather API is running data in XML format
+        -> we will have to write an adaptor on the API.
+        -> The adaptor will call API and get data in XML format and convert it to JSON for use by our code
+
+        
+2.Singleton Design Pattern
+        when we want to create the instance of an class only once
+        --Real life use------
+                is for logging system
+
+       Note*** :  In case of multithreading ...we can still create two instance of same class
