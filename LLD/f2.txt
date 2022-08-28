@@ -5,7 +5,26 @@ Object class - toString , hashcode , equals
  ans- bcz the above mentioned classes implements toString method of Object class 
 
 Design Patterns
+        ->Adaptor
         ->Singleton
         ->Observor
-        ->Adaptor
         ->Decorator
+
+-------------------------------------------------------------------------------------------------------
+
+1.Adaptor Design Pattern
+        ->there is  already existing data provider
+        -> but the format in which data provider provides data is different from the format in which data consumer expects data
+        -> We have to write an adaptor which converts between the two formats
+        --> consumer will depend on adaptor 
+        -> adaptor will call the provider and get data in format
+        -> Adaptor will convert the data format from format1 to format2
+        ->Consumer will get data in format2 from the adaptor
+
+        ----Real Life usage-----
+        ->Let say we want weather API daa and we found a weather API
+        -> Our code s expecting data in JSON format
+        -> weather API is running data in XML format
+        -> we will have to write an adaptor on the API. The adaptor will call API and get data in XML format and convert it to JSON for use by our code
+
+        
