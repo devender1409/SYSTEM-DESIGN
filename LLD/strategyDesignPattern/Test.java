@@ -1,3 +1,4 @@
+//Design pattern 4
 package strategyDesignPattern;
 
 import strategyDesignPattern.kicks.*;
