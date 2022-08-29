@@ -16,5 +16,7 @@ public class Test {
 		fighter.kick();
 		fighter.punch();
 		fighter.wrestle();
+
+		//
 	}
 }
