@@ -1,5 +1,5 @@
 //DP1 - > Design pattern 1
-package LLD;
+// package LLD;
 
 import java.util.Iterator;
 
