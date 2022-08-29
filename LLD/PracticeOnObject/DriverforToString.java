@@ -1,4 +1,4 @@
-package LLD.PracticeOnObject;
+package PracticeOnObject;
 
 
 

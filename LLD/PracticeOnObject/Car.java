@@ -1,4 +1,4 @@
-package LLD.PracticeOnObject;
+package PracticeOnObject;
 
 public class Car {
 	String name;
